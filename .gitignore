@@ -1,6 +1,6 @@
 .editorconfig
 .git
-/node_modules
+angular-app/node_modules
 /e2e
 /docs
 *.zip
