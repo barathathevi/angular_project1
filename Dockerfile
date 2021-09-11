@@ -3,10 +3,8 @@ FROM node:latest
 
 WORKDIR /angular-app
 
-COPY ./angular-app/package.json .
+COPY ./angular-app .
 
 RUN npm install
 
-COPY ./angular-app .
-
-EXPOSE 4200
+EXPOSE 8081
